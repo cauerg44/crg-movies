@@ -13,5 +13,10 @@ import lombok.Setter;
 public class GenreDTO {
 
     private Long id;
-    private String genre;
+    private String name;
+
+    public GenreDTO(Genre model) {
+        this.id = model.getId();
+        this.name = model.getName();
+    }
 }

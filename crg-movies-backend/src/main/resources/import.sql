@@ -1,10 +1,10 @@
-INSERT INTO tb_genre (genre) VALUES ('Drama');
-INSERT INTO tb_genre (genre) VALUES ('Horror');
-INSERT INTO tb_genre (genre) VALUES ('Science-Fiction');
-INSERT INTO tb_genre (genre) VALUES ('Action');
-INSERT INTO tb_genre (genre) VALUES ('Adventure');
-INSERT INTO tb_genre (genre) VALUES ('Romance');
-INSERT INTO tb_genre (genre) VALUES ('Anime');
+INSERT INTO tb_genre (name) VALUES ('Drama');
+INSERT INTO tb_genre (name) VALUES ('Horror');
+INSERT INTO tb_genre (name) VALUES ('Science-Fiction');
+INSERT INTO tb_genre (name) VALUES ('Action');
+INSERT INTO tb_genre (name) VALUES ('Adventure');
+INSERT INTO tb_genre (name) VALUES ('Romance');
+INSERT INTO tb_genre (name) VALUES ('Anime');
 
 -- Horror and Drama movies
 INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Penny Dreadful', 2014, 8.2, 'Penny Dreadful is a gothic horror drama series that weaves together characters from classic Victorian literature like Frankenstein, Dracula, and Dorian Gray, set in the dark corners of London. The show follows Vanessa Ives, an enigmatic and powerful medium, as she and Sir Malcolm Murray, an explorer, search for his missing daughter, Mina. They are joined by Ethan Chandler, an American gunslinger with a dark past, and Victor Frankenstein, who is bringing his creature to life. The series is a moody, sophisticated blend of horror and psychological depth.', 'https://static.tvmaze.com/uploads/images/original_untouched/48/122260.jpg');
