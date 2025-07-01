@@ -1,8 +1,10 @@
 package com.crg.movies.application.services;
 
+import com.crg.movies.application.dto.MovieDTO;
 import com.crg.movies.application.dto.MovieMinDTO;
 import com.crg.movies.application.models.Movie;
 import com.crg.movies.application.repository.MovieRepository;
+import com.crg.movies.application.services.exceptions.ResourceNotFoundException;
 import lombok.RequiredArgsConstructor;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
@@ -20,5 +22,12 @@ public class MovieService {
     public List<MovieMinDTO> findAllMoviesOrderedById() {
         List<Movie> result = movieRepository.findAll(Sort.by("id"));
         return result.stream().map(MovieMinDTO::new).toList();
+    }
+
+    @Transactional(readOnly = true)
+    public MovieDTO findMovieById(Long id) {
+        Movie result = movieRepository.findById(id).orElseThrow(
+                () -> new ResourceNotFoundException("Resource not found"));
+        return new MovieDTO(result);
     }
 }

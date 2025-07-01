@@ -6,6 +6,7 @@ import com.crg.movies.application.services.MovieService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -22,5 +23,11 @@ public class MovieController {
     public ResponseEntity<List<MovieMinDTO>> getAllMovies() {
         List<MovieMinDTO> list = movieService.findAllMoviesOrderedById();
         return ResponseEntity.ok(list);
+    }
+
+    @GetMapping(value = "/{id}")
+    public ResponseEntity<MovieDTO> getMovieById(@PathVariable Long id) {
+        MovieDTO dto = movieService.findMovieById(id);
+        return ResponseEntity.ok(dto);
     }
 }
