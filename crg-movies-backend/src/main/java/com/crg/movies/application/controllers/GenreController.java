@@ -18,8 +18,8 @@ public class GenreController {
     private final GenreService genreService;
 
     @GetMapping
-    public ResponseEntity<List<GenreDTO>> getAllCategories() {
-        List<GenreDTO> list = genreService.findAllCategories();
+    public ResponseEntity<List<GenreDTO>> getAllGenres() {
+        List<GenreDTO> list = genreService.getAllGenresOrderedById();
         return ResponseEntity.ok(list);
     }
 }
