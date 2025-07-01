@@ -37,7 +37,7 @@ public class Movie {
     private String image;
 
     @ManyToMany
-    @JoinTable(name = "tb_movie_category",
+    @JoinTable(name = "tb_movie_genre",
             joinColumns = @JoinColumn(name = "movie_id"),
             inverseJoinColumns = @JoinColumn(name = "genre_id"))
     private Set<Genre> genres = new HashSet<>();
