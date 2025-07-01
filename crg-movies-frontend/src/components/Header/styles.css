@@ -1,0 +1,30 @@
+header {
+    height: 70px;
+    padding: 0 20px;
+    background-color: var(--crgm-color-bg-primary);
+    display: flex;
+    align-items: center;
+}
+
+.crgm-navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.crgm-navbar h1 {
+    color: var(--crg-color-font-primary);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.crgm-navbar img {
+    width: 40px;
+    height: 40px;
+}
+
+@media (max-width: 320px) {
+    .crgm-navbar h1 {
+        font-size: 20px;
+    }
+}
