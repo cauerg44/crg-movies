@@ -1,0 +1,14 @@
+.crgm-home-card {
+    margin-top: 30px;
+    height: 200px;
+    background-color: var(--crgm-color-bg-secondary);
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.crgm-home-card h3 {
+    color: var(--crgm-color-font-secondary);
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}

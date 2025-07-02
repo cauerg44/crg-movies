@@ -1,3 +1,4 @@
+import HomeCard from "../../../components/HomeCard";
 
 
 export default function HomePage() {
@@ -5,7 +6,7 @@ export default function HomePage() {
     return (
         <main>
             <section>
-                Home page
+                <HomeCard />
             </section>
         </main>
     );

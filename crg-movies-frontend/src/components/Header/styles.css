@@ -13,7 +13,7 @@ header {
 }
 
 .crgm-navbar h1 {
-    color: var(--crg-color-font-primary);
+    color: var(--crgm-color-font-primary);
     font-size: 24px;
     font-weight: 500;
 }
