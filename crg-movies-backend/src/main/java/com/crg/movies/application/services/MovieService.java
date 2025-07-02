@@ -25,6 +25,12 @@ public class MovieService {
     }
 
     @Transactional(readOnly = true)
+    public List<MovieMinDTO> findMoviesByGenre(String genre) {
+        List<Movie> list = movieRepository.findMoviesByGenre(genre);
+        return list.stream().map(MovieMinDTO::new).toList();
+    }
+
+    @Transactional(readOnly = true)
     public MovieDTO findMovieById(Long id) {
         Movie result = movieRepository.findById(id).orElseThrow(
                 () -> new ResourceNotFoundException("Resource not found"));

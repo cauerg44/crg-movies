@@ -55,6 +55,21 @@ INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Tokyo Gh
 INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Hunter x Hunter', 2011, 9.0, 'Gon Freecss sets out on an adventurous journey to become a Hunter and find his father. Along the way, he faces challenging trials, powerful enemies, and forms deep friendships that shape his growth.', 'https://i.pinimg.com/736x/54/ed/5d/54ed5de4dfaf991bb3e678ba28cd02c9.jpg');
 INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Sword Art Online', 2012, 7.6, 'Players are trapped in a virtual reality MMORPG where death in the game means death in real life. Kirito, a skilled player, fights to survive the deadly game and free everyone while exploring virtual worlds.', 'https://i.pinimg.com/736x/fd/72/68/fd7268681da2189e5011e444b2b06934.jpg');
 
+-- Adventure movies
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Indiana Jones: Raiders of the Lost Ark', 1981, 8.4, 'Archaeologist Indiana Jones races against Nazis to find the biblical Ark of the Covenant, encountering deadly traps, ancient mysteries, and thrilling chases across exotic locations, while risking everything to keep the artifact from falling into the wrong hands.', 'https://i.pinimg.com/736x/d7/67/0f/d7670ff6d4a254ab495ae5ede792a5f6.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('The Lord of the Rings: The Fellowship of the Ring', 2001, 8.8, 'A young hobbit, Frodo, embarks on a perilous journey to destroy an ancient ring of power before it falls into the hands of evil forces. Alongside a fellowship of diverse companions, he faces dark creatures, treacherous landscapes, and tests of courage and friendship.', 'https://i.pinimg.com/736x/68/82/7c/68827c6d11f2158f477043160df7a3c5.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Pirates of the Caribbean: The Curse of the Black Pearl', 2003, 8.0, 'Captain Jack Sparrow teams up with a blacksmith to rescue a kidnapped woman and recover a cursed pirate treasure. They face supernatural enemies, dangerous sea battles, and betrayals in a swashbuckling adventure full of humor, action, and mystery.', 'https://i.pinimg.com/736x/d9/fe/60/d9fe60419753a60bb69787703ee0839d.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Jurassic Park', 1993, 8.1, 'Scientists clone dinosaurs to create a theme park showcasing living prehistoric creatures, but things quickly go wrong when the park’s security systems fail, releasing dangerous dinosaurs that threaten the lives of visitors and staff in a high-stakes survival scenario.', 'https://i.pinimg.com/736x/eb/71/fa/eb71fa4f5980f97ae56c705686db850e.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('The Revenant', 2015, 8.0, 'Hugh Glass, a frontiersman on a fur trading expedition in the 1820s, fights for survival after being brutally mauled by a bear and left for dead by his own team. His journey is one of grit, revenge, and endurance against the harsh wilderness.', 'https://i.pinimg.com/736x/cd/fc/f9/cdfcf9a17c2eaeac998ab6f4675238c5.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('The Hobbit: An Unexpected Journey', 2012, 7.8, 'Bilbo Baggins, a comfort-loving hobbit, is swept into an epic quest with thirteen dwarves to reclaim their homeland from the fearsome dragon Smaug. Along the way, Bilbo discovers courage and encounters trolls, goblins, and ancient magic.', 'https://i.pinimg.com/736x/51/ef/e2/51efe2bd3dffda28f69747812b95a573.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('The Princess Bride', 1987, 8.1, 'A classic fairy tale blending romance, adventure, and comedy, about a young woman named Buttercup and her true love Westley. They face kidnappings, duels, and an evil prince as they fight to be reunited against all odds.', 'https://i.pinimg.com/736x/37/7e/58/377e58d60f75be5dc01a6b4cc3eed485.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('National Treasure', 2004, 6.9, 'Historian and treasure hunter Ben Gates races against time and rivals to uncover a lost treasure hidden by the Founding Fathers. Using cryptic clues, codes, and puzzles, he ventures on a thrilling adventure across historic sites.', 'https://i.pinimg.com/736x/df/3b/97/df3b976ad1f1c6bb4e92ae15aa9a9f8b.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Life of Pi', 2012, 7.9, 'After a shipwreck, young Pi Patel survives on a lifeboat in the Pacific Ocean with a Bengal tiger named Richard Parker. Their extraordinary journey tests faith, courage, and the will to survive against nature’s vastness.', 'https://i.pinimg.com/736x/f5/92/14/f5921417bcd5e54df5f50e0687e5b799.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Guardians of the Galaxy', 2014, 8.0, 'A ragtag group of intergalactic criminals come together to protect a powerful orb from falling into the hands of a fanatical villain, navigating space battles, unlikely friendships, and humor in this cosmic adventure.', 'https://i.pinimg.com/736x/e4/ae/3d/e4ae3d25d7aa84112e39cdae5ce0d0bf.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('The Jungle Book', 2016, 7.4, 'Mowgli, a boy raised by wolves in the Indian jungle, embarks on a journey of self-discovery as he tries to find his place in the world, while avoiding the dangerous tiger Shere Khan and making friends with animals.', 'https://i.pinimg.com/736x/16/32/a2/1632a24bf99dc0295c75f9e7ef940ec1.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('King Kong', 2005, 7.2, 'An expedition team travels to a mysterious island and discovers a giant ape. They capture him, but their journey back to civilization triggers chaos, romance, and a battle between man and beast.', 'https://i.pinimg.com/736x/b6/d0/a0/b6d0a067e2aee16cf0d2198ea61da57e.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Jumanji: Welcome to the Jungle', 2017, 6.9, 'Four teenagers are sucked into a magical video game and must survive its wild challenges, using their new in-game avatars and skills to escape back to the real world.', 'https://i.pinimg.com/736x/f4/61/53/f46153de3dd49088f79aea99079f6e51.jpg');
+INSERT INTO tb_movie (name, premiered, rating, summary, image) VALUES ('Tomb Raider', 2018, 6.3, 'Lara Croft embarks on a dangerous journey across the globe to uncover the truth about her father’s disappearance, facing deadly traps, ancient puzzles, and ruthless enemies.', 'https://i.pinimg.com/736x/e5/bb/c7/e5bbc747fc93c14c45748907401614c3.jpg');
 
 -----------------------------------------------------------------------
 -----------------------------------------------------------------------
@@ -131,3 +146,19 @@ INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (37, 7);
 INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (38, 7);
 INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (39, 7);
 INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (40, 7);
+
+-- Adventure categories
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (42, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (43, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (44, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (45, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (46, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (47, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (48, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (49, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (50, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (51, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (52, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (53, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (54, 5);
+INSERT INTO tb_movie_genre (movie_id, genre_id) VALUES (55, 5);
