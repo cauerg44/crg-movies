@@ -1,3 +1,4 @@
+import { Outlet } from "react-router-dom";
 import GenresCard from "../../../components/GenresCard";
 
 
@@ -8,6 +9,7 @@ export default function CollectionPage() {
             <section>
                 <GenresCard />
             </section>
+            <Outlet />
         </main>
     );
 }
