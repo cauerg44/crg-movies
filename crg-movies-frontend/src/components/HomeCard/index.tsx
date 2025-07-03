@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom';
 import Button from '../Button';
 import './styles.css';
 
@@ -9,7 +10,9 @@ export default function HomeCard() {
                 <h2 className='crgm-title-home'>
                     Welcome to our movie and animated content library!
                 </h2>
-                <Button name='🎬 See collection'/>
+                <Link to={"/collection"}>
+                    <Button name='🎬 See collection' />
+                </Link>
             </div>
         </>
     );
