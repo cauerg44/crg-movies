@@ -1,0 +1,12 @@
+.crgm-button {
+    margin-top: 20px;
+    border-radius: 8px;
+    border: none;
+    height: 45px;
+    width: 150px;
+    color: var(--crgm-color-font-primary);
+    background-color: var(--crgm-color-bg-primary);
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+}

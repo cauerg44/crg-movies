@@ -6,6 +6,9 @@
 
   --crgm-color-font-primary: #fff;
   --crgm-color-font-secondary: rgb(46, 70, 225);
+  --crgm-color-font-tertiary: #2f2b2b;
+
+  --crgm-color-border-primary: rgb(46, 70, 225);
 }
 
 * {
