@@ -1,16 +1,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
 
 :root {
+  --crgm-color-bg-drama: #6C5B7B;
+  --crgm-color-bg-horror: #C0392B;
+  --crgm-color-bg-adventure: #2980B9;
+  --crgm-color-bg-romance: #E91E63;
+  --crgm-color-bg-sci-fic: #16A085;
+  --crgm-color-bg-action: #F39C12;
+  --crgm-color-bg-anime: #9B59B6;
+  --crgm-color-bg-comedy: #F7DC6F;
+
   --crgm-color-bg-main: #ededed;
 
   --crgm-color-bg-primary: rgb(46, 70, 225);
   --crgm-color-bg-secondary: #fff;
+  --crgm-color-bg-tertiary: #F5F5F5;
 
   --crgm-color-font-primary: #fff;
   --crgm-color-font-secondary: rgb(46, 70, 225);
   --crgm-color-font-tertiary: #2f2b2b;
 
   --crgm-color-border-primary: rgb(46, 70, 225);
+  --crgm-color-border-secondary: #c6c6c6;
 }
 
 * {
@@ -39,4 +50,36 @@ main {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
+}
+
+.bg-drama {
+    background-color: var(--crgm-color-bg-drama);
+}
+
+.bg-horror {
+    background-color: var(--crgm-color-bg-horror);
+}
+
+.bg-adventure {
+    background-color: var(--crgm-color-bg-adventure);
+}
+
+.bg-romance {
+    background-color: var(--crgm-color-bg-romance);
+}
+
+.bg-sci-fic {
+    background-color: var(--crgm-color-bg-sci-fic);
+}
+
+.bg-action {
+    background-color: var(--crgm-color-bg-action);
+}
+
+.bg-anime {
+    background-color: var(--crgm-color-bg-anime);
+}
+
+.bg-comedy {
+    background-color: var(--crgm-color-bg-comedy);
 }
