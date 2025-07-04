@@ -5,6 +5,7 @@
     border: 1px solid var(--crgm-color-border-secondary);
     background-color: var(--crgm-color-bg-tertiary);
     border-radius: 0 10px 10px 0;
+    cursor: pointer;
 }
 
 .crgm-movie-card img {
