@@ -1,9 +1,9 @@
 .crgm-collection-title {
     margin-top: 20px;
     font-size: 28px;
-    text-transform: uppercase;
     color: var(--crgm-color-font-tertiary);
     text-align: start;
+    font-weight: 500;
 }
 
 .crgm-genres-card {

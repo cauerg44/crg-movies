@@ -5,7 +5,7 @@ export default function GenresCard() {
     return (
         <>
             <h2 className='crgm-collection-title crgm-container'>
-                Genres 🎞️
+                Genres
             </h2>
             <div className="crgm-genres-card crgm-container">
                 <div className='crgm-genre-item bg-drama'>
