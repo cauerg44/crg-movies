@@ -21,6 +21,8 @@
 .crgm-movie-card-details h3 {
     color: var(--crgm-color-font-quaternary);
     font-size: 48px;
+    border-bottom: 1px solid var(--crgm-color-border-secondary);
+    margin-bottom: 8px;
 }
 
 .crgm-movie-card-details h4 {
@@ -29,6 +31,9 @@
 }
 
 .crgm-movie-card-details p {
+    padding: 10px 0;
+    border-top: 1px solid var(--crgm-color-border-secondary);
+    border-bottom: 1px solid var(--crgm-color-border-secondary);
     margin-top: 5px;
     color: var(--crgm-color-font-quaternary);
     font-size: 25px;
