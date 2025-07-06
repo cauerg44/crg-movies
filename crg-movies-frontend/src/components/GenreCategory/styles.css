@@ -1,0 +1,19 @@
+.crgm-movie-genre-category {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 130px;
+    border: 2px solid var(--crgm-color-border-secondary);
+    border-radius: 8px;
+    background-color: var(--crgm-color-bg-quartenary);
+    color: var(--crgm-color-font-quaternary);
+    font-weight: 400;
+    font-size: 16px;
+}
+
+@media (max-width: 500px) {
+    .crgm-movie-genre-category {
+        width: 100%;
+    }
+}

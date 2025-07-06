@@ -34,9 +34,15 @@
     padding: 10px 0;
     border-top: 1px solid var(--crgm-color-border-secondary);
     border-bottom: 1px solid var(--crgm-color-border-secondary);
-    margin-top: 5px;
+    margin: 15px 0;
     color: var(--crgm-color-font-quaternary);
     font-size: 25px;
+}
+
+.crgm-genres-category {
+    display: grid;
+    grid-gap: 15px;
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
 }
 
 .span-color-green {
