@@ -25,9 +25,9 @@ public class MovieService {
     }
 
     @Transactional(readOnly = true)
-    public List<MovieMinDTO> findMoviesByGenre(String genre) {
-        List<Movie> list = movieRepository.findMoviesByGenre(genre);
-        return list.stream().map(MovieMinDTO::new).toList();
+    public List<MovieDTO> findMoviesByGenre(String genre) {
+        List<Movie> result =  movieRepository.findMoviesByGenre(genre);
+        return result.stream().map(MovieDTO::new).toList();
     }
 
     @Transactional(readOnly = true)

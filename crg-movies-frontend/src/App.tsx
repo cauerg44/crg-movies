@@ -9,6 +9,7 @@ import Anime from "./routes/Home/CollectionPage/Anime";
 import ActionMovies from "./routes/Home/CollectionPage/ActionMovies";
 import SciFicMovies from "./routes/Home/CollectionPage/SciFicMovies";
 import HorrorMovies from "./routes/Home/CollectionPage/HorrorMovies";
+import MovieDetailsPage from "./routes/Home/MovieDetailsPage";
 
 export default function App() {
 
@@ -28,6 +29,7 @@ export default function App() {
               <Route path="action-movies" element={<ActionMovies />} />
               <Route path="horror-movies" element={<HorrorMovies />} />
             </Route>
+            <Route path="movie-details/:movieId" element={<MovieDetailsPage />} />
           </Route>
           <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>

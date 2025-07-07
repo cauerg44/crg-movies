@@ -1,18 +1,18 @@
-.crgm-button {
+.crgm-inversed-button {
     margin-top: 20px;
     border-radius: 8px;
     border: none;
     height: 45px;
     width: 150px;
-    color: var(--crgm-color-font-primary);
-    background-color: var(--crgm-color-bg-primary);
+    color: var(--crgm-color-font-secondary);
+    background-color: var(--crgm-color-bg-secondary);
     font-weight: 700;
     text-transform: uppercase;
     cursor: pointer;
 }
 
 @media (max-width: 350px) {
-    .crgm-button {
+    .crgm-inversed-button {
         width: 100%;
     }
 }

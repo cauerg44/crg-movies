@@ -32,37 +32,37 @@ public class MovieController {
     }
 
     @GetMapping(value = "/romance")
-    public List<MovieMinDTO> getRomanceMovies() {
+    public List<MovieDTO> getRomanceMovies() {
         return movieService.findMoviesByGenre("Romance");
     }
 
     @GetMapping(value = "/drama")
-    public List<MovieMinDTO> getDramaMovies() {
+    public List<MovieDTO> getDramaMovies() {
         return movieService.findMoviesByGenre("Drama");
     }
 
     @GetMapping(value = "/action")
-    public List<MovieMinDTO> getActionMovies() {
+    public List<MovieDTO> getActionMovies() {
         return movieService.findMoviesByGenre("Action");
     }
 
     @GetMapping(value = "/adventure")
-    public List<MovieMinDTO> getAdventureMovies() {
+    public List<MovieDTO> getAdventureMovies() {
         return movieService.findMoviesByGenre("Adventure");
     }
 
     @GetMapping(value = "/horror")
-    public List<MovieMinDTO> getHorrorMovies() {
+    public List<MovieDTO> getHorrorMovies() {
         return movieService.findMoviesByGenre("Horror");
     }
 
     @GetMapping(value = "/anime")
-    public List<MovieMinDTO> getAnimeMovies() {
+    public List<MovieDTO> getAnimeMovies() {
         return movieService.findMoviesByGenre("Anime");
     }
 
     @GetMapping(value = "/science-fiction")
-    public List<MovieMinDTO> getScienceFictionMovies() {
+    public List<MovieDTO> getScienceFictionMovies() {
         return movieService.findMoviesByGenre("Science-Fiction");
     }
 }
