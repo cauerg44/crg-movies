@@ -29,9 +29,6 @@ export default function GenresCard() {
                 <div className='crgm-genre-item bg-sci-fic'>
                     <h4>Sci-Fiction</h4>
                 </div>
-                <div className='crgm-genre-item bg-comedy'>
-                    <h4>Comedy</h4>
-                </div>
             </div>
         </>
     );
