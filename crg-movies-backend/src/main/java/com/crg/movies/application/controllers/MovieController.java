@@ -19,12 +19,6 @@ public class MovieController {
 
     private final MovieService movieService;
 
-    @GetMapping
-    public ResponseEntity<List<MovieMinDTO>> getAllMovies() {
-        List<MovieMinDTO> list = movieService.findAllMoviesOrderedById();
-        return ResponseEntity.ok(list);
-    }
-
     @GetMapping(value = "/{id}")
     public ResponseEntity<MovieDTO> getMovieById(@PathVariable Long id) {
         MovieDTO dto = movieService.findMovieById(id);

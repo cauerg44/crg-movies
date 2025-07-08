@@ -1,14 +1,14 @@
 import { useEffect, useState } from "react";
 import MovieCard from "../../../../components/MovieCard";
 import type { MovieDTO } from "../../../../models/movie";
-import axios from "axios";
+import * as movieService from '../../../../services/movie-service.ts';
 
 export default function SciFicMovies() {
 
     const [sciFicMovie, setSciFicMovie] = useState<MovieDTO[]>([]);
 
     useEffect(() => {
-        axios.get("http://localhost:8080/movies/science-fiction")
+        movieService.getMoviesByGenre("science-fiction")
             .then(response => {
                 setSciFicMovie(response.data);
             });
